@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- main styling div -->
+    <div id="main-div" class="container">
+        <!-- left -->
+        <div id="left-pannel" class="container flex-column">
+            <p>Temperature</p>
+            <div id="temperature-div">
+                <input id="temperature-slider" type="range" class="vertical-slider"></imput>
+            </div>
+            <p id="temperature-degree">30 degrees</p>
+        </div>
+
+        <!-- right -->
+        <div id="right-pannel" class="container flex-column">
+            <div>
+                <!-- <img id="wind-img" src="assets/weather-png-9845.png"> -->
+                <p>Wind</p>
+                <input id="wind-slider" class="horizontal-slider" type="range">
+                <p id="wind-speed"></p>
+            </div>
+            <div>
+                <img id="humidity-img" src="">
+                <p>Wind</p>
+                <input id="humidity-slider" class="horizontal-slider" type="range">
+                <p id="wind-speed"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

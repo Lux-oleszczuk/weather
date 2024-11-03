@@ -1,0 +1,46 @@
+#main-div {
+    width: 100vw;
+    height: 100vw;
+}
+.vertical-slider {
+    transform: rotate(-90deg);
+    translate: 0 50px;
+}
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+#wind-img {
+    height: 50px;
+    width: 50px;
+}
+#temperature-div {
+    height: 120px;
+}
+/* .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  } */
+#temperature-slider {
+     -webkit-apperance: none;
+     appearance: none;
+     background-image: linear-gradient(to right red, yellow);
+}
+/* 
+ background: linear-gradient(to top, rgb(181, 186, 187), rgba(0,0,0,436));
+ */
