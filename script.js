@@ -7,7 +7,7 @@
 // };
 
 //for fake API calls, replace with the 100 API calls only for final testing
-const apiURL = "http://localhost:5500/assets/data/test.json"
+const apiURL = "/assets/data/test.json"
 
 // variables for sliders
 const humiditiSlider = document.getElementById("humidity-slider");
