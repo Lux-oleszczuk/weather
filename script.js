@@ -20,7 +20,7 @@ const temperatureValue = document.getElementById("temperature-value");
 const windValue = document.getElementById("wind-value");
 
 // leaf animation
-const leafAnimation = document.getElementsByClassName("leaf");
+const leafAnimations = document.getElementsByClassName("leaf");
 // humidity filter
 const humidityFilter = document.getElementById("humidity-filter");
 
@@ -35,8 +35,8 @@ async function fetchData() {
         const json = await response.json();
         //functions update
         updateValue(temperatureSlider, temperatureValue, json.current.temperature);
-        updateValue(windslider, windValue, json.current.wind_speed);
-        updateValue(humiditySlider, humiditiSlider, json.current.humidity);
+        updateValue(windSlider, windValue, json.current.wind_speed);
+        updateValue(humiditiSlider, humidityValue, json.current.humidity);
 
         updateWind(json.current.wind_speed);
         updateHumidity(json.current.humidity);
