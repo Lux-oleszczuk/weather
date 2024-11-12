@@ -19,8 +19,9 @@ const humidityValue = document.getElementById("humidity-value");
 const temperatureValue = document.getElementById("temperature-value");
 const windValue = document.getElementById("wind-value");
 
-// leaf animation
+// leaf and clauds animation
 const leafAnimations = document.getElementsByClassName("leaf");
+const claudAnimation = document.getElementsByClassName("clauds");
 // humidity filter
 const humidityFilter = document.getElementById("humidity-filter");
 
