@@ -18,7 +18,7 @@
     },
     "current": {
         "observation_time": "11:29 AM",
-        "temperature": 12,
+        "temperature": 20,
         "weather_code": 116,
         "weather_icons": [
             "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
@@ -33,7 +33,7 @@
         "precip": 0,
         "humidity": 82,
         "cloudcover": 75,
-        "feelslike": 12,
+        "feelslike": 1,
         "uv_index": 1,
         "visibility": 6,
         "is_day": "yes"
