@@ -32,7 +32,7 @@ const humidityFilter = document.getElementById("humidity-filter");
 async function fetchData() {
     try {
         const response = await fetch(apiURL);
-        //variable abow for fake API calls variable below only for final testing
+        //variable above for fake API calls variable below only for final testing
         // const response = await fetch(apiUrl + new URLSearchParams(urlParams));
         if(!response.ok) {
             throw new Error("response status: ", response.status);
@@ -80,7 +80,7 @@ function updateHumidity(humidity) {
 }
 
 function updateWind(windSpeed) {
-    const newDuration = ((32 - Number(windSpeed)) * 11) /32+1;
+    const newDuration = ((408 - Number(windSpeed)) * 11) /408+1;
     for (const leaf of leafAnimations) {
         leaf.style.animationDuration = newDuration + "s";
     }
