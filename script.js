@@ -98,7 +98,3 @@ function updateValue(sliderElement, valueElement, value) {
 fetchData();
 //fetch data every half second
 //setInterval(fetchData, 500);
-
-
-//the website to shows how the rgb colour change works in a math way
-//https://www.wolframalpha.com/input?i=%28x%2B+20%29*255%2F40
